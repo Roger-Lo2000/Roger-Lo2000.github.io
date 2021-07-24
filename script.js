@@ -24,7 +24,7 @@ function init() {
     100
   )
   camera.position.set(25,5,25)
-  camera.lookAt(scene.position)
+  // camera.lookAt(scene.position)
   controls = new THREE.FirstPersonControls( camera, renderer.domElement)
   controls.lookSpeed = 0.1; //Mouse viewing speed
   controls.movementSpeed = 10; //Camera movement speed
